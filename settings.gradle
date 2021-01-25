@@ -1,3 +1,4 @@
+include ':YCSqlHelper'
 include ':BlurView'
 include ':NetHelper'
 include ':app', ':YCUtilsLib'

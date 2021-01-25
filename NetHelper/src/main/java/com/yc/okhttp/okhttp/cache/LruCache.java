@@ -14,6 +14,7 @@ import java.util.Set;
  * ================================================
  */
 public class LruCache<K, V> implements Cache<K, V> {
+
     private final LinkedHashMap<K, V> cache = new LinkedHashMap<>(100, 0.75f, true);
     private final int initialMaxSize;
     private int maxSize;

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetTool/NetHelper.iml" filepath="$PROJECT_DIR$/.idea/modules/NetTool/NetHelper.iml" group="YCAppUtils/NetHelper" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCAppUtils.iml" filepath="$PROJECT_DIR$/.idea/modules/YCAppUtils.iml" group="YCAppUtils" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/YCAppUtils-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/YCAppUtils-app.iml" group="YCAppUtils/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCSqlHelper/YCSqlHelper.iml" filepath="$PROJECT_DIR$/.idea/modules/YCSqlHelper/YCSqlHelper.iml" group="YCAppUtils/YCSqlHelper" />
       <module fileurl="file://$PROJECT_DIR$/YCUtils.iml" filepath="$PROJECT_DIR$/YCUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/YCUtilsLib/YCUtilsLib.iml" filepath="$PROJECT_DIR$/YCUtilsLib/YCUtilsLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
