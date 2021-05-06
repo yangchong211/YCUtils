@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlurView/BlurView.iml" filepath="$PROJECT_DIR$/.idea/modules/BlurView/BlurView.iml" group="YCAppUtils/BlurView" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetTool/NetHelper.iml" filepath="$PROJECT_DIR$/.idea/modules/NetTool/NetHelper.iml" group="YCAppUtils/NetHelper" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCAppUtils.iml" filepath="$PROJECT_DIR$/.idea/modules/YCAppUtils.iml" group="YCAppUtils" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/YCAppUtils-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/YCAppUtils-app.iml" group="YCAppUtils/app" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCSqlHelper/YCSqlHelper.iml" filepath="$PROJECT_DIR$/.idea/modules/YCSqlHelper/YCSqlHelper.iml" group="YCAppUtils/YCSqlHelper" />
-      <module fileurl="file://$PROJECT_DIR$/YCUtils.iml" filepath="$PROJECT_DIR$/YCUtils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/YCUtilsLib/YCUtilsLib.iml" filepath="$PROJECT_DIR$/YCUtilsLib/YCUtilsLib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCUtilsLib/cn.yc-YCUtilsLib.iml" filepath="$PROJECT_DIR$/.idea/modules/YCUtilsLib/cn.yc-YCUtilsLib.iml" group="YCAppUtils/YCUtilsLib" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCAppUtils.iml" filepath="$PROJECT_DIR$/.idea/modules/YCAppUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlurView/YCAppUtils.BlurView.iml" filepath="$PROJECT_DIR$/.idea/modules/BlurView/YCAppUtils.BlurView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCJsonUtils/YCAppUtils.YCJsonUtils.iml" filepath="$PROJECT_DIR$/.idea/modules/YCJsonUtils/YCAppUtils.YCJsonUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetHelper/YCAppUtils.YCNetHelper.iml" filepath="$PROJECT_DIR$/.idea/modules/NetHelper/YCAppUtils.YCNetHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCSqlHelper/YCAppUtils.YCSqlHelper.iml" filepath="$PROJECT_DIR$/.idea/modules/YCSqlHelper/YCAppUtils.YCSqlHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCStorageLib/YCAppUtils.YCStorageLib.iml" filepath="$PROJECT_DIR$/.idea/modules/YCStorageLib/YCAppUtils.YCStorageLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCTaskQueue/YCAppUtils.YCTaskQueue.iml" filepath="$PROJECT_DIR$/.idea/modules/YCTaskQueue/YCAppUtils.YCTaskQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCUtilsLib/YCAppUtils.YCUtilsLib.iml" filepath="$PROJECT_DIR$/.idea/modules/YCUtilsLib/YCAppUtils.YCUtilsLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/YCAppUtils.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/YCAppUtils.app.iml" />
     </modules>
   </component>
 </project>

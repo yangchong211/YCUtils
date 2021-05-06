@@ -1,4 +1,7 @@
+include ':YCTaskQueue'
+include ':YCStorageLib'
+include ':YCJsonUtils'
 include ':YCSqlHelper'
 include ':BlurView'
-include ':NetHelper'
+include ':YCNetHelper'
 include ':app', ':YCUtilsLib'
