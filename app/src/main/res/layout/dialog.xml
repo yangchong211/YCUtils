@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.yc.rider.ycutilslib.blurView.RealTimeBlurView
+    <com.ns.yc.ycutilslib.blurView.RealTimeBlurView
         android:id="@+id/blur_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

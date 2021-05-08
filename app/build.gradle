@@ -10,7 +10,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
     defaultConfig {
-//        applicationId "com.ns.yc.ycutils"
+        applicationId "com.yc.rider"
         minSdkVersion 17
         targetSdkVersion 25
         versionCode 1
