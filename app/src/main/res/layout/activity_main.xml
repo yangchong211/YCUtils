@@ -15,7 +15,7 @@
         app:tabSelectedTextColor="@color/colorPrimaryDark"
         app:tabTextColor="@color/colorAccent" />
 
-    <com.ns.yc.ycutilslib.viewPager.NoSlidingViewPager
+    <com.yc.rider.ycutilslib.viewPager.NoSlidingViewPager
         android:id="@+id/vp_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

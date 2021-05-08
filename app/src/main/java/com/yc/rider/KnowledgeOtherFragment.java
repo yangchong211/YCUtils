@@ -1,4 +1,4 @@
-package com.ns.yc.ycutils;
+package com.yc.rider;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -15,6 +15,7 @@ import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 
 import com.ns.yc.ycutilslib.fragmentBack.BackHandledFragment;
+import com.yc.rider.R;
 
 /**
  * ================================================

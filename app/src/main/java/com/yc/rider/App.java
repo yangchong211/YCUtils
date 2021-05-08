@@ -1,4 +1,4 @@
-package com.ns.yc.ycutils;
+package com.yc.rider;
 
 import android.app.Application;
 

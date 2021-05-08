@@ -1,4 +1,4 @@
-package com.ns.yc.ycutils;
+package com.yc.rider;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.yc.rider.R;
 import com.ns.yc.ycutilslib.slideLayout.SlitherFinishLayout;
 
 /**

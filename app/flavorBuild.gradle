@@ -1,0 +1,93 @@
+import java.util.regex.Matcher
+import java.util.regex.Pattern
+
+//获取.properties文件中的参数
+def loadProperties(name){
+    def proFile = file("${name}.properties")
+    Properties properties = new Properties()
+    proFile.withInputStream { stream ->
+        properties.load(stream)
+    }
+
+    Enumeration<?> e = properties.propertyNames();
+    while (e.hasMoreElements()) {
+        //获取key
+        String key = (String) e.nextElement()
+        //获取value
+        String value = properties.getProperty(key)
+        ext["$key"] = value
+    }
+}
+
+
+//获取渠道
+def getCurrentFlavor() {
+    Gradle gradle = getGradle()
+    String cmd = gradle.getStartParameter().getTaskRequests().toString()
+    println "flavor----cmd--->" + cmd
+
+    Pattern pattern
+    if (cmd.contains("assemble")) {
+        pattern = Pattern.compile("assemble(\\w+)(Release|Debug)")
+    } else if (cmd.contains("install")) {
+        pattern = Pattern.compile("install(\\w+)(Release|Debug)")
+    } else if (cmd.contains("snailAssemble")) {
+        pattern = Pattern.compile("snailAssemble(\\w+)(Release|Debug)")
+    } else if (cmd.contains("snailInstall")) {
+        pattern = Pattern.compile("snailInstall(\\w+)(Release|Debug)")
+    } else {
+        pattern = Pattern.compile("generate(\\w+)(Release|Debug)")
+    }
+    println "flavor----pattern--->" + pattern
+    Matcher matcher = pattern.matcher(cmd)
+    if (matcher.find()) {
+        String name = matcher.group(1).toLowerCase()
+        println "flavor----name--->" + name
+        return name
+    } else {
+        println "NO MATCH FOUND"
+        println "flavor----name--->NO MATCH FOUND"
+        return "china"
+    }
+}
+
+///**
+// * Returns issue string
+// */
+//def getIssueString(appVersion) {
+//    // debug 构建不生成 issue，否则 manifest 每次更新会导致 IDE 的 apply changes 无法使用
+//    println "[getIssueString] appVersion: " + appVersion + " project.hasProperty(\"devBuild\"): " + project.hasProperty("devBuild")
+//    if (project.hasProperty("devBuild")) {
+//        println "devBuild!!!!!!!!"
+//        return appVersion
+//    }
+//    def issue = System.env['ISSUE']
+//    def timeFormat = 'yyyyMMddHHmmss'
+//    if (gradle.startParameter.isOffline()) {
+//        timeFormat = 'yyyyMMdd'
+//    }
+//    println "flavor----timeFormat--->"+timeFormat
+//    if (issue?.trim()) {
+//        return issue.trim()
+//    } else if (appVersion?.trim()) {
+//        return "${appVersion}.${new Date().format(timeFormat)}"
+//    } else {
+//        return 'build-' + new Date().format(timeFormat)
+//    }
+//}
+
+//def getCheckedOutGitCommitHash() {
+//    'git rev-parse --verify --short HEAD'.execute().text.trim()
+//}
+
+//ext {
+//    getIssueString = this.&getIssueString
+//    println "flavor----getIssueString--->"+getIssueString
+//    getCheckedOutGitCommitHash = this.&getCheckedOutGitCommitHash
+//    println "flavor----getCheckedOutGitCommitHash--->"+getCheckedOutGitCommitHash
+//}
+
+String name = getCurrentFlavor()
+//调用方法
+loadProperties(name)
+

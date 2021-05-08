@@ -1,0 +1,32 @@
+android {
+    defaultConfig {
+        buildConfigField 'int', 'BUSINESS_ID', BUSINESS_ID
+        buildConfigField 'String', 'H5_URL_HOST', "$H5_URL_HOST"
+
+        buildConfigField 'Boolean', 'IS_GLOBAL', IS_GLOBAL
+        buildConfigField 'Boolean', 'IS_JAPAN', IS_JAPAN
+        buildConfigField 'Boolean', 'IS_CHINA', IS_CHINA
+    }
+
+    productFlavors {
+        global {
+            applicationId "com.yc.global.rider"
+            versionCode 1
+            versionName "1.0.0"
+            dimension "mode"
+        }
+        japan {
+            applicationId "com.yc.japan.rider"
+            versionCode 31
+            versionName "1.3.1"
+            dimension "mode"
+        }
+        china {
+            applicationId "com.yc.china.rider"
+            versionCode 21
+            versionName "1.2.1"
+            dimension "mode"
+        }
+    }
+}
+

@@ -1,4 +1,4 @@
-package com.ns.yc.ycutils;
+package com.yc.rider;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,6 +13,7 @@ import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.yc.rider.R;
 import com.ns.yc.ycutilslib.blurView.RealTimeBlurView;
 import com.ns.yc.ycutilslib.blurView.blur.BlurBehind;
 import com.ns.yc.ycutilslib.loadingDialog.LoadDialog;

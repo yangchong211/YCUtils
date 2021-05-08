@@ -1,4 +1,4 @@
-package com.ns.yc.ycutils;
+package com.yc.rider;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
+import com.yc.rider.R;
 import com.ns.yc.ycutilslib.fragmentBack.BackHandlerHelper;
 import com.ns.yc.ycutilslib.loadingDialog.stateLoad.CustomLoadingDialog;
 import com.ns.yc.ycutilslib.loadingDialog.stateLoad.CustomStyleManager;

@@ -1,4 +1,6 @@
-package com.ns.yc.ycutils;
+package com.yc.rider;
+
+import com.yc.rider.R;
 
 /**
  * ================================================

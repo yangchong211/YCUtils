@@ -1,4 +1,4 @@
-package com.ns.yc.ycutils;
+package com.yc.rider.ycutils;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
