@@ -1,3 +1,4 @@
+include ':YCCardView'
 include ':YCTaskQueue'
 include ':YCStorageLib'
 include ':YCJsonUtils'

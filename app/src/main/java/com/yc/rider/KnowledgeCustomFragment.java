@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.CountDownTimer;
 import android.os.Handler;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
@@ -126,7 +127,8 @@ public class KnowledgeCustomFragment extends BaseFragment implements View.OnClic
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.tv_1:
-                startShowLoading();
+                //startShowLoading();
+                test();
                 break;
             case R.id.tv_2:
                 startShowDialog();
@@ -226,6 +228,16 @@ public class KnowledgeCustomFragment extends BaseFragment implements View.OnClic
                 break;
         }
     }
+
+    private void test(){
+        String s ="37.78584";
+        Double d1 = Double.valueOf(s);
+        Log.i("test-------d1--",d1+"");
+        double d2 = Double.parseDouble(s);
+        Log.i("test-------d2--",d2+"");
+
+    }
+
 
     private void startShowLoading() {
         // 添加Loading

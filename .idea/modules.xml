@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCAppUtils.iml" filepath="$PROJECT_DIR$/.idea/modules/YCAppUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlurView/YCAppUtils.BlurView.iml" filepath="$PROJECT_DIR$/.idea/modules/BlurView/YCAppUtils.BlurView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCCardViewLib/YCAppUtils.YCCardView.iml" filepath="$PROJECT_DIR$/.idea/modules/YCCardViewLib/YCAppUtils.YCCardView.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCJsonUtils/YCAppUtils.YCJsonUtils.iml" filepath="$PROJECT_DIR$/.idea/modules/YCJsonUtils/YCAppUtils.YCJsonUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/NetHelper/YCAppUtils.YCNetHelper.iml" filepath="$PROJECT_DIR$/.idea/modules/NetHelper/YCAppUtils.YCNetHelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/YCSqlHelper/YCAppUtils.YCSqlHelper.iml" filepath="$PROJECT_DIR$/.idea/modules/YCSqlHelper/YCAppUtils.YCSqlHelper.iml" />

@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
-//apply from: file('./flavorBuild.gradle')
-//// flavor.gradle 里会用到版本号，前置会导致生成 ISSUE 时取到的版本号为空
-//apply from: file('./flavor.gradle')
+apply from: file('./flavorBuild.gradle')
+// flavor.gradle 里会用到版本号，前置会导致生成 ISSUE 时取到的版本号为空
+apply from: file('./flavor.gradle')
 
 
 

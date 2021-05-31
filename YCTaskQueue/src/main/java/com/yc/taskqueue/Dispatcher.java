@@ -9,11 +9,7 @@ import java.util.concurrent.Executor;
 
 /**
  * 异步任务分发器
- * <p>
  * 基于 AsyncTask 的封装，默认统一使用 AsyncTask 提供的线程池。
- *
- * @author yanglei (yangleiyanglei@didichuxing.com)
- * @date 2017/12/7 上午11:53
  */
 public class Dispatcher {
 
