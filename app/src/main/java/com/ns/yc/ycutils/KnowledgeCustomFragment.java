@@ -33,6 +33,7 @@ import com.ns.yc.ycutilslib.switchButton.SwitchButton;
 public class KnowledgeCustomFragment extends BaseFragment implements View.OnClickListener {
 
     private MainActivity activity;
+    private TextView tv0;
     private TextView tv1;
     private ViewLoading mLoading;
     private TextView tv2;
@@ -67,6 +68,7 @@ public class KnowledgeCustomFragment extends BaseFragment implements View.OnClic
 
     @Override
     public void initView() {
+        tv0 = (TextView) activity.findViewById(R.id.tv_0);
         tv1 = (TextView) activity.findViewById(R.id.tv_1);
         tv2 = (TextView) activity.findViewById(R.id.tv_2);
         tv3 = (TextView) activity.findViewById(R.id.tv_3);
@@ -97,6 +99,7 @@ public class KnowledgeCustomFragment extends BaseFragment implements View.OnClic
 
     @Override
     public void initListener() {
+        tv0.setOnClickListener(this);
         tv1.setOnClickListener(this);
         tv2.setOnClickListener(this);
         sb_btn.setOnCheckedChangeListener(new SwitchButton.OnCheckedChangeListener() {
@@ -124,6 +127,10 @@ public class KnowledgeCustomFragment extends BaseFragment implements View.OnClic
     @Override
     public void onClick(View v) {
         switch (v.getId()){
+            case R.id.tv_0:
+                Intent intent0 = new Intent(activity, SwtichActivity.class);
+                startActivity(intent0);
+                break;
             case R.id.tv_1:
                 startShowLoading();
                 break;

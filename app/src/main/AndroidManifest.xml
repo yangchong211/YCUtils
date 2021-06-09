@@ -20,6 +20,7 @@
         </activity>
         <activity android:name=".BlurredActivity"/>
         <activity android:name=".APPLockActivity"/>
+        <activity android:name=".SwtichActivity"/>
     </application>
 
 </manifest>
